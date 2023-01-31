@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Peugeot New Greek';
+    src: url('PeugeotNewGreek-LightItalic.eot');
+    src: local('Peugeot New Greek Light Italic'), local('PeugeotNewGreek-LightItalic'),
+        url('PeugeotNewGreek-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PeugeotNewGreek-LightItalic.woff2') format('woff2'),
+        url('PeugeotNewGreek-LightItalic.woff') format('woff'),
+        url('PeugeotNewGreek-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Peugeot New Greek Extra';
+    src: url('PeugeotNewGreek-ExtraLight.eot');
+    src: local('Peugeot New Greek Extra Light'), local('PeugeotNewGreek-ExtraLight'),
+        url('PeugeotNewGreek-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('PeugeotNewGreek-ExtraLight.woff2') format('woff2'),
+        url('PeugeotNewGreek-ExtraLight.woff') format('woff'),
+        url('PeugeotNewGreek-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Peugeot New Greek';
+    src: url('PeugeotNewGreek-Regular.eot');
+    src: local('Peugeot New Greek Regular'), local('PeugeotNewGreek-Regular'),
+        url('PeugeotNewGreek-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PeugeotNewGreek-Regular.woff2') format('woff2'),
+        url('PeugeotNewGreek-Regular.woff') format('woff'),
+        url('PeugeotNewGreek-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Peugeot New Greek';
+    src: url('PeugeotNewGreek-Black.eot');
+    src: local('Peugeot New Greek Black'), local('PeugeotNewGreek-Black'),
+        url('PeugeotNewGreek-Black.eot?#iefix') format('embedded-opentype'),
+        url('PeugeotNewGreek-Black.woff2') format('woff2'),
+        url('PeugeotNewGreek-Black.woff') format('woff'),
+        url('PeugeotNewGreek-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Peugeot New Greek';
+    src: url('PeugeotNewGreek-Light.eot');
+    src: local('Peugeot New Greek Light'), local('PeugeotNewGreek-Light'),
+        url('PeugeotNewGreek-Light.eot?#iefix') format('embedded-opentype'),
+        url('PeugeotNewGreek-Light.woff2') format('woff2'),
+        url('PeugeotNewGreek-Light.woff') format('woff'),
+        url('PeugeotNewGreek-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Peugeot New Greek';
+    src: url('PeugeotNewGreek-Bold.eot');
+    src: local('Peugeot New Greek Bold'), local('PeugeotNewGreek-Bold'),
+        url('PeugeotNewGreek-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PeugeotNewGreek-Bold.woff2') format('woff2'),
+        url('PeugeotNewGreek-Bold.woff') format('woff'),
+        url('PeugeotNewGreek-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

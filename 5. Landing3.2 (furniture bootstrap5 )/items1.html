@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<!-- heder -->
+	<!-- <div class="conteiner">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom fixed-top bg-light">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+    </div>
+    </header> -->
+	<!-- menu gamburger -->
+
+
+	<section class="top-nav fixed-top">
+		<div class="logo fs-1 fw-bold">
+			Logo Here
+		</div>
+		<input id="menu-toggle" type="checkbox" />
+		<label class='menu-button-container' for="menu-toggle">
+			<div class='menu-button'></div>
+		</label>
+		<ul class="menu">
+			<li><a href="index.html" class="nav-link px-2 link-light ">Home</a></li>
+			<li><a href="index.html" class="nav-link px-2 link-light ">Our product</a></li>
+			<li><a href="#" class="nav-link px-2 link-light ">About</a></li>
+			<li><a href="#contacts" class="nav-link px-2 link-light ">Contacts</a></li>
+		</ul>
+	</section>
+
+
+	<!-- jablotron -->
+	<!-- <div class="conteiner art-jablotron mb-3">
+        <div class="row align-items-md-stretch">
+            <div class="col-md-6">
+                <div class="h-100 p-5 text-white bg-dark rounded-3">
+                    <h2>Change the background</h2>
+                    <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look.
+                        Then, mix and match with additional component themes and more.</p>
+                    <button class="btn btn-outline-light" type="button">Example button</button>
+                </div>
+            </div>
+            <div class="col-md-6 art-windRight">
+                <div class="h-100 p-5 bg-light border rounded-3">
+                    <h2>Add borders</h2>
+                    <p>Or, keep it light and add a border for some added definition to the boundaries of your content.
+                        Be sure to look under the hood at the source HTML here as we've adjusted the alignment and
+                        sizing of both column's content for equal-height.</p>
+                    <button class="btn btn-outline-secondary" type="button">Example button</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+	<!-- parallax -->
+	<div class="parallax">
+		<h1 class="fw-bold">
+			New project
+		</h1>
+		<div class="mask"></div>
+	</div>
+
+	<!-- photo items -->
+
+	<div class="conteiner art-conteinerItems">
+		<div class="row">
+			<h1 class="text-center text-dark-emphasis fw-bold mt-5 fw-semibold" id='#'>Items</h1>
+			<div class="col-lg-4 col-sm-6 art-wrap g-0 position-relative">
+				<div class="descr" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+					<h3 class="p-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>Item №1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus.</p>
+
+				</div>
+				<a href="#contacts"
+					class="btn btn-outline-success translate-middle-x position-absolute art-btnItem">Learn more</a>
+
+				<img alt="Alt" src="img/1.1.jpg">
+
+			</div>
+			<div class="col-lg-4 col-sm-6 art-wrap g-0 position-relative">
+				<div class="descr" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+					<h3 class="p-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>Item №1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus.</p>
+
+				</div>
+				<a href="#contacts"
+					class="btn btn-outline-success translate-middle-x position-absolute art-btnItem">Learn more</a>
+				<img alt="Alt" src="img/1.2.jpg">
+			</div>
+			<div class="col-lg-4 col-sm-6 art-wrap g-0 position-relative">
+				<div class="descr" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+					<h3 class="p-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>Item №1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus.</p>
+
+				</div>
+				<a href="#contacts"
+					class="btn btn-outline-success translate-middle-x position-absolute art-btnItem">Learn more</a>
+				<img alt="Alt" src="img/1.3.jpg">
+			</div>
+			<div class="col-lg-4 col-sm-6 art-wrap g-0 position-relative">
+				<div class="descr" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+					<h3 class="p-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>Item №1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus.</p>
+
+				</div>
+				<a href="#contacts"
+					class="btn btn-outline-success translate-middle-x position-absolute art-btnItem">Learn more</a>
+				<img alt="Alt" src="img/1.4.jpg">
+			</div>
+			<div class="col-lg-4 col-sm-6 art-wrap g-0 position-relative">
+				<div class="descr" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+					<h3 class="p-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>Item №1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus.</p>
+
+				</div>
+				<a href="#contacts"
+					class="btn btn-outline-success translate-middle-x position-absolute art-btnItem">Learn more</a>
+				<img alt="Alt" src="img/1.5.jpg">
+			</div>
+			<div class="col-lg-4 col-sm-6 art-wrap g-0 position-relative">
+				<div class="descr" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+					<h3 class="p-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>Item №1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus.</p>
+
+				</div>
+				<a href="#contacts"
+					class="btn btn-outline-success translate-middle-x position-absolute art-btnItem">Learn more</a>
+				<img alt="Alt" src="img/1.6.jpg">
+			</div>
+			<div class="col-lg-4 col-sm-6 art-wrap g-0 position-relative">
+				<div class="descr" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+					<h3 class="p-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>Item №1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus.</p>
+
+				</div>
+				<a href="#contacts"
+					class="btn btn-outline-success translate-middle-x position-absolute art-btnItem">Learn more</a>
+				<img alt="Alt" src="img/1.7.jpg">
+			</div>
+			<div class="col-lg-4 col-sm-6 art-wrap g-0 position-relative">
+				<div class="descr" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+					<h3 class="p-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>Item №1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus.</p>
+
+				</div>
+				<a href="#contacts"
+					class="btn btn-outline-success translate-middle-x position-absolute art-btnItem">Learn more</a>
+				<img alt="Alt" src="img/1.8.jpg">
+			</div>
+			<div class="col-lg-4 col-sm-6 art-wrap g-0 position-relative">
+				<div class="descr" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+					<h3 class="p-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>Item №1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus.</p>
+
+				</div>
+				<a href="#contacts"
+					class="btn btn-outline-success translate-middle-x position-absolute art-btnItem">Learn more</a>
+				<img alt="Alt" src="img/1.9.jpg">
+			</div>
+		</div>
+	</div>
+
+	<!-- items and modal -->
+
+	<!-- <div class="container my-5">
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			<div class="col">
+				<div class="card h-90 position-relative">
+					<h4 class="card-title text-center mt-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>item
+						№1</h4>
+					<img src="img/1.1.jpg" class="card-img-top" alt="...">
+					<div class="card-body text-center">
+						<p class="position-absolute art-pItem" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae dicta, maiores
+							pariatur voluptatibus nostrum officiis, dolorum numquam sed excepturi unde deserunt quisquam
+
+						</p>
+
+
+						<a href="#contacts" onclick="location.href = '#contacts';"
+							class="btn btn-outline-success position-absolute  translate-middle-x art-btnItem"
+							role="button" data-bs-toggle="button">Learn
+							more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h4 class="card-title text-center mt-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>item
+						№2</h4>
+					<img src="img/1.2.jpg" data-bs-target='#exampleModal' data-bs-toggle='modal' class="card-img-top"
+						alt="...">
+					<div class="card-body text-center">
+						<p class="position-absolute art-pItem" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae dicta, maiores
+							pariatur voluptatibus nostrum officiis, dolorum numquam sed excepturi unde deserunt quisquam
+
+						</p>
+
+
+						<a href="#contacts" onclick="location.href = '#contacts';"
+							class="btn btn-outline-success position-absolute  translate-middle-x art-btnItem"
+							role="button" data-bs-toggle="button">Learn
+							more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h4 class="card-title text-center mt-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>item
+						№3</h5>
+						<img src="img/1.3.jpg" data-bs-target='#exampleModal' data-bs-toggle='modal'
+							class="card-img-top alt=" ...">
+						<div class="card-body text-center">
+							<p class="position-absolute art-pItem" data-bs-target='#exampleModal'
+								data-bs-toggle='modal'>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae dicta, maiores
+								pariatur voluptatibus nostrum officiis, dolorum numquam sed excepturi unde deserunt
+								quisquam
+
+							</p>
+
+
+							<a href="#" onclick="location.href = '#contacts';"
+								class="btn btn-outline-success position-absolute  translate-middle-x art-btnItembtn btn-outline-success position-absolute  translate-middle-x art-btnItem"
+								role="button" data-bs-toggle="button">Learn
+								more</a>
+						</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h4 class="card-title text-center mt-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>item
+						№4</h4>
+					<img src="img/1.4.jpg" data-bs-target='#exampleModal' data-bs-toggle='modal' class="card-img-top"
+						alt="...">
+					<div class="card-body text-center">
+						<p class="position-absolute art-pItem" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae dicta, maiores
+							pariatur voluptatibus nostrum officiis, dolorum numquam sed excepturi unde deserunt quisquam
+
+						</p>
+
+
+						<a href="#contacts" onclick="location.href = '#contacts';"
+							class="btn btn-outline-success position-absolute  translate-middle-x art-btnItem"
+							role="button" data-bs-toggle="button">Learn
+							more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h4 class="card-title text-center mt-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>item
+						№5</h4>
+					<img src="img/1.5.jpg" data-bs-target='#exampleModal' data-bs-toggle='modal' class="card-img-top"
+						alt="...">
+					<div class="card-body text-center">
+						<p class="position-absolute art-pItem" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae dicta, maiores
+							pariatur voluptatibus nostrum officiis, dolorum numquam sed excepturi unde deserunt quisquam
+
+						</p>
+
+
+						<a href="#contacts" onclick="location.href = '#contacts';"
+							class="btn btn-outline-success position-absolute  translate-middle-x art-btnItem"
+							role="button" data-bs-toggle="button">Learn
+							more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h4 class="card-title text-center mt-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>item
+						№6</h4>
+					<img src="img/1.6.jpg" data-bs-target='#exampleModal' data-bs-toggle='modal' class="card-img-top"
+						alt="...">
+					<div class="card-body text-center">
+						<p class="position-absolute art-pItem" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae dicta, maiores
+							pariatur voluptatibus nostrum officiis, dolorum numquam sed excepturi unde deserunt quisquam
+
+						</p>
+
+
+						<a href="#contacts" onclick="location.href = '#contacts';"
+							class="btn btn-outline-success position-absolute  translate-middle-x art-btnItem"
+							role="button" data-bs-toggle="button">Learn
+							more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h4 class="card-title text-center mt-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>item
+						№7</h4>
+					<img src="img/1.7.jpg" data-bs-target='#exampleModal' data-bs-toggle='modal' class="card-img-top"
+						alt="...">
+					<div class="card-body text-center">
+						<p class="position-absolute art-pItem" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae dicta, maiores
+							pariatur voluptatibus nostrum officiis, dolorum numquam sed excepturi unde deserunt quisquam
+
+						</p>
+
+
+						<a href="#contacts" onclick="location.href = '#contacts';"
+							class="btn btn-outline-success position-absolute  translate-middle-x art-btnItem"
+							role="button" data-bs-toggle="button">Learn
+							more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h4 class="card-title text-center mt-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>item
+						№8</h4>
+					<img src="img/1.8.jpg" data-bs-target='#exampleModal' data-bs-toggle='modal' class="card-img-top"
+						alt="...">
+					<div class="card-body text-center">
+						<p class="position-absolute art-pItem" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae dicta, maiores
+							pariatur voluptatibus nostrum officiis, dolorum numquam sed excepturi unde deserunt quisquam
+
+						</p>
+
+
+						<a href="#contacts" onclick="location.href = '#contacts';"
+							class="btn btn-outline-success position-absolute  translate-middle-x art-btnItem"
+							role="button" data-bs-toggle="button">Learn
+							more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h4 class="card-title text-center mt-3" data-bs-target='#exampleModal' data-bs-toggle='modal'>item
+						№9</h4>
+					<img src="img/1.9.jpg" data-bs-target='#exampleModal' data-bs-toggle='modal' class="card-img-top"
+						alt="..." b-blo>
+					<div class="card-body text-center">
+						<p class="position-absolute art-pItem" data-bs-target='#exampleModal' data-bs-toggle='modal'>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae dicta, maiores
+							pariatur voluptatibus nostrum officiis, dolorum numquam sed excepturi unde deserunt quisquam
+
+						</p>
+
+						<a href="#contacts" onclick="location.href = '#contacts';"
+							class="btn btn-outline-success position-absolute  translate-middle-x art-btnItem"
+							role="button" data-bs-toggle="button">Learn
+							more</a>
+
+					</div>
+				</div> -->
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<div id="carouselExampleIndicators" class="carousel slide carousel-fade"
+									data-bs-ride="carousel">
+									<div class="carousel-indicators">
+										<button type="button" data-bs-target="#carouselExampleIndicators"
+											data-bs-slide-to="0" class="active bg-primary" aria-current="true"
+											aria-label="Slide 1"></button>
+										<button type="button" data-bs-target="#carouselExampleIndicators"
+											data-bs-slide-to="1" aria-label="Slide 2" class="bg-primary"></button>
+										<button type="button" data-bs-target="#carouselExampleIndicators"
+											data-bs-slide-to="2" aria-label="Slide 3" class="bg-primary"></button>
+										<button type="button" data-bs-target="#carouselExampleIndicators"
+											data-bs-slide-to="3" aria-label="Slide 4" class="bg-primary"></button>
+										<button type="button" data-bs-target="#carouselExampleIndicators"
+											data-bs-slide-to="4" aria-label="Slide 5" class="bg-primary"></button>
+										<button type="button" data-bs-target="#carouselExampleIndicators"
+											data-bs-slide-to="5" aria-label="Slide 6" class="bg-primary"></button>
+										<button type="button" data-bs-target="#carouselExampleIndicators"
+											data-bs-slide-to="6" aria-label="Slide 7" class="bg-primary"></button>
+										<button type="button" data-bs-target="#carouselExampleIndicators"
+											data-bs-slide-to="7" aria-label="Slide 8" class="bg-primary"></button>
+										<button type="button" data-bs-target="#carouselExampleIndicators"
+											data-bs-slide-to="8" aria-label="Slide 9" class="bg-primary"></button>
+									</div>
+									<div class="carousel-inner">
+										<div class="carousel-item active" data-bs-interval="3000">
+											<img src="img/1.1.jpg" class="d-block w-100" alt="...">
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img src=" img/1.2.jpg" class="d-block w-100" alt="...">
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img src="img/1.3.jpg" class="d-block w-100" alt="...">
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img src=" img/1.4.jpg" class="d-block w-100" alt="...">
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img src=" img/1.5.jpg" class="d-block w-100" alt="...">
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img src=" img/1.6.jpg" class="d-block w-100" alt="...">
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img src=" img/1.7.jpg" class="d-block w-100" alt="...">
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img src=" img/1.8.jpg" class="d-block w-100" alt="...">
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img src=" img/1.9.jpg" class="d-block w-100" alt="...">
+										</div>
+									</div>
+									<button class="carousel-control-prev" type="button"
+										data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+										<span class="carousel-control-prev-icon bg-primary rounded-3"
+											aria-hidden="true"></span>
+										<span class="visually-hidden">Previous</span>
+									</button>
+									<button class="carousel-control-next" type="button"
+										data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+										<span class="carousel-control-next-icon bg-primary rounded-3"
+											aria-hidden="true"></span>
+										<span class="visually-hidden">Next</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	</div>
+
+	</div>
+	</div>
+
+
+
+	<!-- button to up -->
+	<a class="btn btn-secondary btn-sm art-btnUp" href="#" role="button"><i class="bi bi-caret-up-fill"></i></a>
+
+	<!-- contacts -->
+	<div class="conteiner text-light">
+		<h1 class="text-center text-dark-emphasis fw-bold" id='contacts'>Cоntacts</h1>
+		<div class="row p-2 text-white bg-opacity-75 my-3 art-contacts">
+			<div class="col-lg-6 col-md-8 col-sm-10 fs-3 p-5">
+				<div class="mb-3">
+					<label for="formGroupExampleInput" class="form-label">Your name</label>
+					<input type="text" class="form-control" id="formGroupExampleInput"
+						placeholder="Example input placeholder">
+				</div>
+				<div class="mb-3">
+					<label for="formGroupExampleInput2" class="form-label">Your mail</label>
+					<input type="text" class="form-control" id="formGroupExampleInput2"
+						placeholder="Another input placeholder">
+				</div>
+				<div class="mb-3">
+					<label for="formGroupExampleInput2" class="form-label">Phone number</label>
+					<input type="text" class="form-control" id="formGroupExampleInput2"
+						placeholder="Another input placeholder">
+				</div>
+				<div class="mb-3">
+					<label for="formGroupExampleInput2" class="form-label">Your phone number</label>
+					<input type="text" class="form-control" id="formGroupExampleInput2"
+						placeholder="Another input placeholder">
+				</div>
+				<div class="mb-3">
+					<label for="formGroupExampleInput2" class="form-label">Message</label>
+					<input type="text" class="form-control" id="formGroupExampleInput2"
+						placeholder="Another input placeholder">
+				</div>
+				<div class="mb-3">
+					<a class="btn bg-gradient text-light  btn-sm px-4 my-4 py-0 fs-3 rounded-3 art-btn" type="submit"
+						role="button">Send</a>
+				</div>
+				<h3>tel. +1 234-111-00-00</h3>
+				<h3>tel. +1 234-111-00-22</h3>
+				<h3>Adress: Adress: 5th and 6th Avenues, New York City</h3>
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- footer -->
+
+	<!-- <nav class="navbar  navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bottom navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="navbar-toggler-icon"></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                    <li class="nav-item dropup">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown"
+                            aria-expanded="false">Dropup</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown10">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+	<!-- <div class="container"> -->
+	<footer class="bg-light d-flex flex-wrap justify-content-between align-items-center py-1 border-top">
+
+		<div class="col-md-4 d-flex align-items-center">
+			<a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+				<svg class="bi" width="30" height="24">
+					<use xlink:href="#bootstrap"></use>
+				</svg>
+			</a>
+			<span class="text-muted">© 2021 Company, Inc</span>
+		</div>
+
+		<ul class="nav col-md-4 justify-content-end list-unstyled d-flex art-icon">
+			<li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+			<li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+			<li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+		</ul>
+
+	</footer>
+	<!-- </div> -->
+
+
+
+
+
+
+</body>
+
+</html>

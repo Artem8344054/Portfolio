@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing VR</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-0 border-bottom head sticky-md-top">
+                <a href="/" class="d-flex align-items-center mb-0 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <span class="fs-4 brand" id="head">VR Project name</span>
+                </a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">About</a></li>
+                    <li class="nav-item"><a href="Catalog.html" class="nav-link">Catalog</a></li>
+                    <li class="nav-item"><a href="#news" class="nav-link">News</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link active" aria-current="page">Contacts</a>
+                    </li>
+
+                </ul>
+            </header>
+        </div>
+
+    </header>
+    <a href="#head"><img src="img/up.png" id="fixedbutton"></a>
+
+
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="headerАrea">
+
+            <div class="text1">
+                <h1 class="display-5 fw-bold text2">Custom jumbotron</h1>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center mx-5  news fw-bold" id="ourProduct">Our product</h2>
+
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active bg-primary" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2" class="bg-primary"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3" class="bg-primary"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4" class="bg-primary"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="img/81.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src=" img/82.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img/83.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src=" img/84.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-primary rounded-3" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-primary rounded-3" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-90 position-relative">
+                    <h4 class="card-title text-center mt-3">Сategory №1</h4>
+                    <img src="img/61.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+
+                        <a href="items.html" onclick="location.href = 'items.html';"
+                            class="btn btn-primary position-absolute  start-50 top-65 translate-middle-x art-btn"
+                            role="button" data-bs-toggle="button">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h4 class="card-title text-center mt-3">Сategory №2</h4>
+                    <img src="img/62.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+
+
+                        <a href="items.html" onclick="location.href = 'items.html';"
+                            class="btn btn-primary position-absolute  start-50 top-65 translate-middle-x art-btn"
+                            role="button" data-bs-toggle="button">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h4 class=" card-title text-center mt-3">Сategory №3</h5>
+                        <img src="img/63.jpg" class="card-img-top alt=" ...">
+                        <div class="card-body text-center">
+
+
+                            <a href="items.html" onclick="location.href = 'items.html';"
+                                class="btn btn-primary position-absolute  start-50 top-65 translate-middle-x art-btn"
+                                role="button" data-bs-toggle="button">Learn
+                                more</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h4 class="card-title text-center mt-3">Сategory №4</h4>
+                    <img src="img/64.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+
+
+                        <a href="items.html" onclick="location.href = 'items.html';"
+                            class="btn btn-primary position-absolute  start-50 top-65 translate-middle-x art-btn"
+                            role="button" data-bs-toggle="button">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h4 class="card-title text-center mt-3">Сategory №5</h4>
+                    <img src="img/65.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+
+
+                        <a href="items.html" onclick="location.href = 'items.html';"
+                            class="btn btn-primary position-absolute  start-50 top-65 translate-middle-x art-btn"
+                            role="button" data-bs-toggle="button">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h4 class="card-title text-center mt-3">Сategory №6</h4>
+                    <img src="img/66.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+
+
+                        <a href="items.html" onclick="location.href = 'items.html';"
+                            class="btn btn-primary position-absolute  start-50 top-65 translate-middle-x art-btn"
+                            role="button" data-bs-toggle="button">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h4 class="card-title text-center mt-3">Сategory №7</h4>
+                    <img src="img/67.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+
+
+                        <a href="items.html" onclick="location.href = 'items.html';"
+                            class="btn btn-primary position-absolute  start-50 top-65 translate-middle-x art-btn"
+                            role="button" data-bs-toggle="button">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h4 class="card-title text-center mt-3">Сategory №8</h4>
+                    <img src="img/68.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+
+
+                        <a href="items.html" onclick="location.href = 'items.html';"
+                            class="btn btn-primary position-absolute  start-50 top-65 translate-middle-x art-btn"
+                            role="button" data-bs-toggle="button">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <h4 class="card-title text-center mt-3">Сategory №9</h4>
+                    <img src="img/69.jpg" class="card-img-top d-block h-30" alt="..." b-blo>
+                    <div class="card-body text-center">
+
+                        <a href="items.html" onclick="location.href = 'items.html';"
+                            class="btn btn-primary position-absolute  start-50 top-65 translate-middle-x art-btn"
+                            role="button" data-bs-toggle="button">Learn
+                            more</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <h2 class="text-center mx-5 news fw-bold" id="contacts">Contacts</h2>
+
+
+                <div class="col-12 wrap5">
+                    <form class="col-xl-6 col-md-8 col-sm-10 my-3">
+                        <div class=" mb-3">
+                            <label for="exampleInputEmail1" class="form-label h3 lh-base fw-bold">Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label h3 lh-base fw-bold">Phone</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label h3 lh-base fw-bold">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label h3 lh-base fw-bold">Message</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+
+                        <p class="text-white mt-5 my-4 h3 lh-base fw-bold">Tel.: +1 234 555 6677</p>
+                        <p class="text-white my-4 h3 lh-base fw-bold">Tel.: +1 234 555 6678</p>
+                        <p class="text-white my-4 h3 lh-base fw-bold">Mail: vr@reality.com</p>
+                        <p class="text-white my-4 h3 lh-base fw-bold">Adress: 5th and 6th Avenues, New York Citi </p>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="brand">Project Name</div>
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="Catalog.html" class="nav-link px-2 text-muted  fw-bold">Our product</a>
+                </li>
+                <li class="nav-item"><a href="#news" class="nav-link px-2 text-muted">News</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link px-2 text-muted">Contacts</a></li>
+
+            </ul>
+
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <div class="col-md-4 d-flex align-items-center">
+
+                    <span class="text-muted">© 2021 Company, Inc</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#">
+                            <div class="icons foot"><img src="img/instagram.png" alt="">
+                            </div>
+                        </a></li>
+                    <li class="ms-3"><a class="text-muted" href="#">
+                            <div class="icons foot"><img src="img/facebook.png" alt="">
+                            </div>
+                        </a></li>
+                    <li class="ms-3"><a class="text-muted" href="#">
+                            <div class="icons foot"><img src="img/twitter.png" alt="">
+                            </div>
+                        </a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
